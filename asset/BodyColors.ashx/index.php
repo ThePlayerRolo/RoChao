@@ -1,6 +1,8 @@
 <?php 
     header("Content-Type: text/plain");
     $UserId = (int)$_GET["id"];
+
+
     if ($UserId == 0) {  
     $HeadColor = 24;
     $LeftArmColor = 24;
