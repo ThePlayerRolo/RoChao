@@ -25,7 +25,6 @@
         echo "http://www.rochao.com/asset/?id=".$Item.";";
       }
     }
-    
     if ($UserId == $ID) {  
       echo "http://www.rochao.com/asset/BodyColors.ashx/?id=".$UserId.";";
       for ($i = 0; $i < 10; $i++) {
