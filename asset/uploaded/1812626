@@ -4,7 +4,7 @@
   <Item class="Pants" referent="RBX0">
     <Properties>
       <Content name="PantsTemplate">
-        <url>http://www.rochao.com/asset/?id=1812625</url>
+        <url>http://www.rochao.xyz/asset/?id=1812625</url>
       </Content>
       <string name="Name">Pants</string>
       <bool name="archivable">true</bool>

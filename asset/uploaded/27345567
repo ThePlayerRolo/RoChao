@@ -19,7 +19,7 @@
         <R22>1</R22>
       </CoordinateFrame>
       <int name="BackendAccoutrementState">2</int>
-      <string name="Name">FieryEggOfEggTesting</string>
+      <string name="Name">SFOTHEgg</string>
       <bool name="archivable">true</bool>
     </Properties>
     <Item class="Part" referent="RBX1">
@@ -96,7 +96,7 @@
       <Item class="SpecialMesh" referent="RBX2">
         <Properties>
           <Content name="MeshId">
-            <url>http://www.rochao.com/asset/?id=1527559</url>
+            <url>http://www.rochao.xyz/asset/?id=1527559</url>
           </Content>
           <token name="MeshType">5</token>
           <string name="Name">Mesh</string>
@@ -106,7 +106,7 @@
             <Z>1</Z>
           </Vector3>
           <Content name="TextureId">
-            <url>http://www.rochao.com/asset/?id=27345486</url>
+            <url>http://www.rochao.xyz/asset/?id=27345486</url>
           </Content>
           <Vector3 name="VertexColor">
             <X>1</X>

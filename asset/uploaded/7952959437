@@ -3,7 +3,7 @@
 	<External>nil</External>
 	<Item class="ShirtGraphic" referent="RBX0">
 		<Properties>
-			<Content name="Graphic"><url>http://www.rochao.com/asset/?id=7952959407</url></Content>
+			<Content name="Graphic"><url>http://www.rochao.xyz/asset/?id=7952959407</url></Content>
 			<string name="Name">Shirt Graphic</string>
 			<bool name="archivable">true</bool>
 		</Properties>

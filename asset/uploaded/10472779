@@ -1,4 +1,4 @@
-<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.rochao.com/roblox.xsd" version="4">
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.rochao.xyz/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
 	<Item class="Tool" referent="RBX0">
@@ -21,7 +21,7 @@
 				<R22>0.217036352</R22>
 			</CoordinateFrame>
 			<string name="Name">BloxyCola</string>
-			<Content name="TextureId"><url>http://www.rochao.com/asset/?id=10472127</url></Content>
+			<Content name="TextureId"><url>http://www.rochao.xyz/asset/?id=10472127</url></Content>
 			<bool name="archivable">true</bool>
 		</Properties>
 		<Item class="Part" referent="RBX1">
@@ -98,7 +98,7 @@
 				<Properties>
 					<token name="LODX">2</token>
 					<token name="LODY">2</token>
-					<Content name="MeshId"><url>http://www.rochao.com/asset/?id=10470609</url></Content>
+					<Content name="MeshId"><url>http://www.rochao.xyz/asset/?id=10470609</url></Content>
 					<token name="MeshType">5</token>
 					<string name="Name">Mesh</string>
 					<Vector3 name="Offset">
@@ -111,7 +111,7 @@
 						<Y>1.20000005</Y>
 						<Z>1.20000005</Z>
 					</Vector3>
-					<Content name="TextureId"><url>http://www.rochao.com/asset/?id=10470600</url></Content>
+					<Content name="TextureId"><url>http://www.rochao.xyz/asset/?id=10470600</url></Content>
 					<Vector3 name="VertexColor">
 						<X>1</X>
 						<Y>1</Y>
@@ -2754,7 +2754,7 @@
 					<string name="Name">OpenSound</string>
 					<int name="PlayCount">-1</int>
 					<bool name="PlayOnRemove">false</bool>
-					<Content name="SoundId"><url>http://www.rochao.com/asset/?id=10721950</url></Content>
+					<Content name="SoundId"><url>http://www.rochao.xyz/asset/?id=10721950</url></Content>
 					<float name="Volume">0.5</float>
 					<bool name="archivable">true</bool>
 				</Properties>
@@ -2765,7 +2765,7 @@
 					<string name="Name">DrinkSound</string>
 					<int name="PlayCount">-1</int>
 					<bool name="PlayOnRemove">false</bool>
-					<Content name="SoundId"><url>http://www.rochao.com/asset/?id=10722059</url></Content>
+					<Content name="SoundId"><url>http://www.rochao.xyz/asset/?id=10722059</url></Content>
 					<float name="Volume">0.5</float>
 					<bool name="archivable">true</bool>
 				</Properties>
