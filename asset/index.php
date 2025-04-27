@@ -11,7 +11,7 @@ $assetId = $_GET["id"];
         echo "404: File Not Found";
       }
   } else {
-    header("Location: http://www.rochao.com/asset/?id=0", true, 302); 
+    header("Location: http://www.rochao.xyz/asset/?id=0", true, 302); 
     exit;
 
 

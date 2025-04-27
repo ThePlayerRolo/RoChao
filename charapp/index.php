@@ -22,11 +22,11 @@
     $CharacterAppearanceTable = [ $Hat1, $Hat2, $Hat3, $Head, $Face, $Package, $Pants, $Shirts, $TShirts, $Gear ];
     function EchoIfWorn ($Item) {
       if ($Item != "") {
-        echo "http://www.rochao.com/asset/?id=".$Item.";";
+        echo "http://www.rochao.xyz/asset/?id=".$Item.";";
       }
     }
     if ($UserId == $ID) {  
-      echo "http://www.rochao.com/asset/BodyColors.ashx/?id=".$UserId.";";
+      echo "http://www.rochao.xyz/asset/BodyColors.ashx/?id=".$UserId.";";
       for ($i = 0; $i < 10; $i++) {
         EchoIfWorn($CharacterAppearanceTable[$i]);
       }
