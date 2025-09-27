@@ -1,10 +1,12 @@
 <?php 
-    header("Content-Type: text/plain");
+    header(header: "Content-Type: text/plain");
     $UserId = (int)$_GET["id"];
+
     $conn = mysqli_connect(  "localhost","root", "", "rochao_database");
 	// check connection
-	  if(!$conn){
+	  if(!$conn) {
 		echo 'Connection error: '. mysqli_connect_error();
+    exit;
 	  }
     $Query = "SELECT * FROM `user_accesories` WHERE id = '$UserId' ";
 
@@ -13,7 +15,7 @@
     // good practice Apperantly for memory, might as well
     mysqli_free_result($result);
     mysqli_close($conn);
-    $CharappArray =array_reduce($CharappArray,'array_merge',array());
+    $CharappArray = array_reduce($CharappArray,'array_merge',array());
     $CharappArray = implode(",", $CharappArray);
     list($ID, $Hat1, $Hat2, $Hat3, $Head, $Face, $Package, $Pants, $Shirts, $TShirts, $Gear) = explode(',', $CharappArray);
     /* Hat1, Hat2, Hat3, Head, Face, Package, Pants, Shirts, TSHirt, Gear  */

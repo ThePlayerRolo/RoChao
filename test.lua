@@ -1,1 +1,0 @@
-local Fire = Instance.new("Fire", game.Workspace)
