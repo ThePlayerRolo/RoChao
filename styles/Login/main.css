@@ -1,0 +1,68 @@
+    .TITLE {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        right: 230px;
+    }
+    .Main {
+        width: 550px;
+        height: 200px;      
+        border-style: solid;
+        border-width: thin;
+        position: relative;
+        left: 635px;
+        bottom: -95px;
+    }
+    .Form {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 12px;
+        position: relative;
+        left: 25px;
+        bottom: -20px;
+    }
+    .PasswordButton {
+        position: relative;
+        left: 5px;
+        bottom: -10px; 
+    }
+    .SubmitButton {
+        position: relative;
+        left: 40px;
+        bottom: -20px;    
+    }
+    .PasswordToggle {
+        position: relative;
+        bottom: -20px;     
+    }
+    .ForgotYourPass {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 12px;
+        position: relative;
+        left: 25px;
+        bottom: -50px;
+    }
+    .NewUser {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        width: 210px;
+        height: 175px; 
+        background-color: #DCDCDC;
+        position: relative;
+        left: 320px;
+        bottom: 140px;
+    }
+
+    .NewUserTitle {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        right: 30px;
+        bottom: -10px;
+    }
+    .NewUserText {
+        font-size:12px;
+        position:relative;
+        left: 15px;
+        bottom: -5px;
+    }
