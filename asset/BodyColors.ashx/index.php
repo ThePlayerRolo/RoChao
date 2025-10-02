@@ -30,7 +30,7 @@
             <string name="Name">Body Colors</string>
             <int name="RightArmColor"><?php echo $RightArmColor?></int>
             <int name="RightLegColor"><?php echo $RightLegColor?></int>
-            <int name="TorsoColor"><?php echo $TorsoColor?> </int>
+            <int name="TorsoColor"><?php echo $TorsoColor?></int>
             <bool name="archivable">true</bool>
         </Properties>
     </Item>

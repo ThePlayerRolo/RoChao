@@ -21,7 +21,7 @@
     /* Hat1, Hat2, Hat3, Head, Face, Package, Pants, Shirts, TSHirt, Gear  */
     /* Head: "6340101" Package: "311", Pants: "1812626", Shirts: "3056808", */
 
-    $CharacterAppearanceTable = [ $Hat1, $Hat2, $Hat3, $Head, $Face, $Package, $Pants, $Shirts, $TShirts, $Gear ];
+    $CharacterAppearanceTable = [ $Hat1, $Hat2, $Hat3, $Head, $Face, $Package, $Pants, $Shirts, $TShirts, $Gear];
     function EchoIfWorn ($Item) {
       if ($Item != "") {
         echo "http://www.rochao.xyz/asset/?id=".$Item.";";
