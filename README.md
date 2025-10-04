@@ -5,5 +5,5 @@
 * 1. Setup wampserver: https://wampserver.aviatechno.net/
 * 2. Create SQL data base that aligns with the data thingys
   NOTE: You will need to creare your own uploaded with assets for testing
-* 3. Download and extract from here: [LINK!](https://drive.google.com/file/d/12xA25sW6aKiajM-TH6xqDYJ2pTdNlYoS/view?usp=sharing) (I PROMISE ITS NOT A VIRUS), [VirusTotal](https://www.virustotal.com/gui/file/653a861f350844e4b50d48803d083294f307e20f88a042eff80e5e339477302b?nocache=1)
-*  4. Open a place and run join.lua in root
+* 3. Extract the client from ./Client (I PROMISE ITS NOT A VIRUS), [VirusTotal](https://www.virustotal.com/gui/file/914adf60aecde93637977896563be8af953aa9ff7dba145333449228446296ae?nocache=1)
+*  4. PLAY! Currently Tools->Test->Play Solo is supported.
