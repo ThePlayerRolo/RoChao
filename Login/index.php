@@ -10,7 +10,7 @@
     <?php include '../Header.php';?>
     <div class = "Main">
         <h1 class="TITLE"> Log In </h1>
-        <form class="Form">
+        <form class="Form" method="POST">
             <label for="Username">Username:</label>
             <input type = "text" id="Username" name="Username"> <br>
             <label for="Username" class ="PasswordButton">Password:</label>
