@@ -1,0 +1,13 @@
+        'UserID'    
+	'HeadColor' => 24,
+            'LeftArmColor' => 24,
+            'LeftLegColor' => 119,
+            'RightArmColor' => 24,
+            'RightLegColor' => 119,
+            'TorsoColor' =>  23,
+
+Mine/ Arms and head: 24 24 24  Legs: 21 21 Torso: 26
+
+BodyColors::Create(['HeadColor' => 24, 'LeftArmColor' => 24, 'LeftLegColor' => 119, 'RightArmColor' => 24, 'RightLegColor' => 119, 'TorsoColor' =>  23])
+
+BodyColors::Create(['HeadColor' => 24, 'LeftArmColor' => 24, 'LeftLegColor' => 21, 'RightArmColor' => 24, 'RightLegColor' => 21, 'TorsoColor' =>  26])
