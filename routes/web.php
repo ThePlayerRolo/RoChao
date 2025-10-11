@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('testview');
+    return view('default');
 });
 
 Route::get('/asset/', function () {

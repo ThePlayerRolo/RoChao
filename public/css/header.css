@@ -1,0 +1,66 @@
+    .TopBarLinks {
+    text-decoration: none; 
+    color:white; 
+    font-size:20px;
+    position: relative;
+    bottom: -3px;
+    left: -10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+    .TopBarLinks2 {
+    text-decoration: none; 
+    color:white; 
+    font-size:17px;
+    position: relative;
+    bottom: -3px;
+    left: -10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+    .TopBarDiv {
+        width: 1024px;
+        height: 35px;
+    background-color:#6e99c9; 
+    position: absolute; 
+    top: 87px; 
+    left:380px;
+    text-align: center;
+    border-style:solid;
+    }
+    .TopBarDiv2 {
+        width: 1024px;
+        height: 35px;
+    background-color:black; 
+    position: absolute; 
+    top: 125px; 
+    left:380px;
+    text-align: center;
+    border-style:solid;
+    }
+    .TopBanner {
+        width: 1024px; 
+        height: 83px; 
+        margin-bottom: 0px; 
+        position: absolute; 
+        left: 380px; 
+        top: -1px;
+        border-style:solid;
+        z-index: 1;
+        
+    }
+    .TopLogo {
+        width:425px;
+        height:70px;
+        position: relative;
+        left: 650px;
+        top: 0px;
+        z-index: 2;
+        
+    }
+    .DownloadButton {
+        width: 163px;
+        height: 36px;
+        position: relative;
+        top: -55px;
+        left: 1220px;
+        z-index: 3;
+    }
