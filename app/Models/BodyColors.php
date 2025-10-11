@@ -9,5 +9,6 @@ class BodyColors extends Model
 {
     /** @use HasFactory<\Database\Factories\BodyColorsFactory> */
     protected $fillable = ['HeadColor', 'LeftArmColor', 'LeftLegColor', 'RightArmColor', 'RightLegColor', 'TorsoColor'];
+    
     use HasFactory;
 }

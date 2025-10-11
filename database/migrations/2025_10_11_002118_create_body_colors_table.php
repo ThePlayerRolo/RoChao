@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer("HeadColor");
             $table->integer("LeftArmColor");
             $table->integer("LeftLegColor");
-            $table->integer("RIghtArmColor");
+            $table->integer("RightArmColor");
             $table->integer("RightLegColor");
             $table->integer("TorsoColor");
         });
