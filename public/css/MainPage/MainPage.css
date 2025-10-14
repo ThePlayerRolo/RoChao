@@ -1,0 +1,199 @@
+    .ComicSansVirtualPlayWorld {
+        text-align: left;
+        font-size: x-large;
+        letter-spacing: 1px;
+        margin: 0 0 5px 0px;
+        text-transform: none;
+    }
+    .ComicSansVirtualPlayWorld2 {
+        font-size: 12pt;
+        font-weight: bold;
+        letter-spacing: normal;
+        text-align: left;
+        margin: 0 0 15px 0px;
+    }
+    .VirtualPlayworld {
+    background-color: #eee;
+    border: solid 1px #000;
+    float: right;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    width: 715px;
+    }
+.ThingsToDoList {
+    list-style: none;
+    text-align: left;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 292px;
+};
+
+.ThingsToDoList li {
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    margin: 0px 0 20px 0;
+    padding: 0 0 0 56px;
+}
+.ThingsToDoList h3 {
+    line-height: 1em;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #333;
+    letter-spacing: normal;
+    font-size: 12pt;
+    text-align: left;
+}
+.ThingsToDoList div {
+    color: #666;
+    font-size: normal;    
+
+}
+.PointPlace {
+    background-position: 0 0px;
+    background-image: url("http://www.rochao.xyz/img/BuildIcon.png");
+    background-repeat: no-repeat;
+    margin: 0px 0 25px 0;
+    padding: 0 0 0 56px;
+}
+
+.PointFriends {
+    background-position: 0 0px;
+    background-image: url("http://www.rochao.xyz/img/FriendsIcon.png");
+    background-repeat: no-repeat;
+    margin: 0px 0 25px 0;
+    padding: 0 0 0 56px;
+}
+
+.PointBomb {
+    background-position: 0 0px;
+    background-image: url("http://www.rochao.xyz/img/Bomb.png");
+    background-repeat: no-repeat;
+    margin: 0px 0 25px 0;
+    padding: 0 0 0 56px;
+}
+
+.Body {
+    height: 582.667px;
+}
+
+.SignInPane {
+    float: left;
+    width: 150px;
+}
+
+.LoginView {
+    border: solid 1px Black;
+    width: 150px;
+}
+
+h5 {
+    font: normal 11px/normal Verdana,sans-serif;
+  letter-spacing: 1px;
+  padding: 5px 5px 5px 5px;
+}
+
+.LoginView h5 {
+  text-transform: none;
+  background-color: #ccc;
+  border-bottom: solid 1px #000;
+  margin: 0;
+}
+
+.Laravel-Login {
+    background-color: #eee;
+}
+
+.LoginPanel {
+    padding: 3px 5px 3px 5px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.LoginView .Label {
+    font-weight: bold;
+}
+.LoginView .Text {
+  width: 133px;
+}
+
+input.Text {
+  border-color: #777;
+  border-style: dashed;
+}
+
+.Laravel-Login input {
+  font-size: 1em;
+}
+
+.SubmitPanel {
+  padding: 10px 5px 5px 10px;
+  text-align: center;
+}
+.Button {
+    cursor: pointer;
+  background-color: #fff;
+  border: solid 1px #333;
+  color: #333;
+  font-family: Verdana,Sans-Serif;
+  font-size: .9em;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+}
+.Button {
+    border: solid 1px #777;
+    color: #777;
+}
+
+.PasswordRecoveryPanel a {
+  color: #999;
+  font: normal 9px/normal Verdana,sans-serif;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.PasswordRecoveryPanel {
+    padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.Figure {
+    margin-top: 60px;
+}
+
+
+.ForParents {
+  border: solid 1px #000;
+  bottom: 10px;
+  height: 125px;
+  left: 10px;
+  position: absolute;
+  width: 125px;
+}
+
+.Showcase {
+  float: right;
+  margin: 0;
+  width: 400px;
+}
+
+.Install {
+  clear: both;
+  margin: 5px 0 0 0;
+  width: 715px;
+}
+
+.CompatibilityNote {
+  color: #666;
+  float: left;
+  font: normal 9px/normal Verdana,Arial,Helvetica,sans-serif;
+  text-align: right;
+  width: 310px;
+}
+.DownloadAndPlay {
+  float: right;
+  width: 400px;
+}
