@@ -15,6 +15,6 @@ Route::get('/asset/BodyColors.ashx', function () {
     return view('assets.bodycolors');
 });
 
-Route::get('/asset/charapp', function () {
-    return view('assets.charapp');
+Route::get('/asset/test', function () {
+    return view('assets.test');
 });
