@@ -11,6 +11,7 @@
 
 <body>
     <div class="Container">
+        <div style = "margin-bottom: 5px;"> </div>
         <x-header></x-header>
         <div class="Body">
             <div id="SplashContainer">

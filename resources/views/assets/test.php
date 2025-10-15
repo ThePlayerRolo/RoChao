@@ -1,6 +1,7 @@
 <?php
 
 include(base_path('ROCHAO-RCCServiceSoap\Assemblies\Roblox\Grid\RCC_Include.php'));
+include(base_path('api\ROCHAOAPI_Include.php'));
 use Illuminate\Support\Facades\Storage;
 
 use Roblox\Grid\Rcc as RCC;
@@ -8,13 +9,27 @@ use Roblox\Grid\Rcc as RCC;
 $RCCServiceSoap = new RCC\RCCServiceSoap("127.0.0.1", 64989);
 
 $job = new RCC\Job("StringTest4");
+
+
+//Hat
+/*
 $scriptData = file_get_contents(storage_path('RenderingScripts\HatThumbnail.lua'));
-$scriptData  = str_replace("%asset%", 1, $scriptData);
+$scriptData  = str_replace("%asset%", 1, $scriptData);*/
+
+
+
+//Player
+$scriptData = file_get_contents(storage_path('RenderingScripts\PlayerThumbnail.lua'));
+$charapp = ROCHAO\CharappUtil\getCharappUrl(1, false);
+
+$scriptData  = str_replace("%charapp%", $charapp, $scriptData);
+
+/*$scriptData = file_get_contents(storage_path('RenderingScripts\ShirtsPantsThumbnail.lua'));
+$scriptData  = str_replace("%asset%", 27, $scriptData);*/
 echo $scriptData;
+
 $script = new RCC\ScriptExecution("StringTest4-Script", $scriptData);
 $text =  $RCCServiceSoap->OpenJob($job, $script);
-
-
 $RCCServiceSoap->CloseJob("StringTest4");
 if ($text != null) {
     $image_encoded =  $text[0];
@@ -22,5 +37,7 @@ if ($text != null) {
 
     Storage::put('test.png', $image);
 }
+
+
 
 ?>
