@@ -7,8 +7,8 @@ Route::get('/', function () {
 });
 
 Route::get('/asset/', function () {
-    header(header: "Content-Type: text/plain");
-    return view('assets.asset');
+    $contents = view('assets.asset');
+    return response($contents)->header('Content-Type', 'text/plain');
 });
 
 Route::get('/asset/BodyColors.ashx', function () {
@@ -16,5 +16,9 @@ Route::get('/asset/BodyColors.ashx', function () {
 });
 
 Route::get('/asset/test', function () {
-    return view('assets.test');
+    return view('assets.RCCWork');
+});
+
+Route::get('/asset/RenderH', function () {
+    return view('assets.HeadRendering');
 });

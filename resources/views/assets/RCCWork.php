@@ -22,11 +22,17 @@ $scriptData  = str_replace("%asset%", 1, $scriptData);*/
 $scriptData = file_get_contents(storage_path('RenderingScripts\PlayerThumbnail.lua'));
 $charapp = ROCHAO\CharappUtil\getCharappUrl(1, false);
 
-$scriptData  = str_replace("%charapp%", $charapp, $scriptData);
+$scriptData  = str_replace("%charapp%", "http://www.rochao.xyz/asset/BodyColors.ashx/?id=1", $scriptData);
 
-/*$scriptData = file_get_contents(storage_path('RenderingScripts\ShirtsPantsThumbnail.lua'));
-$scriptData  = str_replace("%asset%", 27, $scriptData);*/
-echo $scriptData;
+
+//Shirts and Pants
+/* $scriptData = file_get_contents(storage_path('RenderingScripts\ShirtsPantsThumbnail.lua'));
+$scriptData  = str_replace("%asset%", 29, $scriptData);*/
+
+//echo $scriptData;
+/*
+$scriptData = file_get_contents(storage_path('RenderingScripts\GearThumbnail.lua'));
+$scriptData  = str_replace("%asset%", 19, $scriptData);*/
 
 $script = new RCC\ScriptExecution("StringTest4-Script", $scriptData);
 $text =  $RCCServiceSoap->OpenJob($job, $script);
@@ -34,10 +40,13 @@ $RCCServiceSoap->CloseJob("StringTest4");
 if ($text != null) {
     $image_encoded =  $text[0];
     $image = base64_decode($image_encoded);
-
+    //echo $image_encoded;
     Storage::put('test.png', $image);
+
 }
 
 
 
 ?>
+
+<img src = <?php echo Storage::url('test.png')?> >
