@@ -20,5 +20,6 @@ Route::get('/asset/test', function () {
 });
 
 Route::get('/asset/RenderH', function () {
-    return view('assets.HeadRendering');
+    $contents = view('assets.HeadRendering');
+    return response($contents)->header('Content-Type', 'text/plain');
 });

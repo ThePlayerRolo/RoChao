@@ -14,19 +14,21 @@ $job = new RCC\Job("StringTest4");
 //Hat
 /*
 $scriptData = file_get_contents(storage_path('RenderingScripts\HatThumbnail.lua'));
-$scriptData  = str_replace("%asset%", 1, $scriptData);*/
+$scriptData  = str_replace("%asset%", 8, $scriptData);*/
 
 
 
 //Player
+
 $scriptData = file_get_contents(storage_path('RenderingScripts\PlayerThumbnail.lua'));
 $charapp = ROCHAO\CharappUtil\getCharappUrl(1, false);
 
-$scriptData  = str_replace("%charapp%", "http://www.rochao.xyz/asset/BodyColors.ashx/?id=1", $scriptData);
-
+$scriptData  = str_replace("%charapp%", "http://www.rochao.xyz/asset/BodyColors.ashx/?id=1;http://www.rochao.xyz/asset/?id=8;http://www.rochao.xyz/asset/?id=25", $scriptData);
+echo $scriptData;
 
 //Shirts and Pants
-/* $scriptData = file_get_contents(storage_path('RenderingScripts\ShirtsPantsThumbnail.lua'));
+/*
+ $scriptData = file_get_contents(storage_path('RenderingScripts\ShirtsPantsThumbnail.lua'));
 $scriptData  = str_replace("%asset%", 29, $scriptData);*/
 
 //echo $scriptData;
