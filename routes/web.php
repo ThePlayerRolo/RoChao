@@ -23,3 +23,7 @@ Route::get('/asset/RenderH', function () {
     $contents = view('assets.HeadRendering');
     return response($contents)->header('Content-Type', 'text/plain');
 });
+
+Route::get('/test/auth', function () {
+    return view('test.Auth');
+});
